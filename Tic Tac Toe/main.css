@@ -1,0 +1,33 @@
+:root {
+  --hover-image: url(images/lowOpacityCross.svg)
+}
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  user-select: none;
+}
+
+.game-grid {
+  width: 75vmin;
+  height: 75vmin;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  outline: 2vmin solid #eee;
+  opacity: 80%;
+}
+
+.game-grid__item {
+  outline: 1vmin solid rgb(0, 0, 0);
+  background-size: cover;
+}
+
+.game-grid__item:not(.occupied):hover {
+  background-image: var(--hover-image) !important;
+  cursor: pointer;
+}
