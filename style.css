@@ -1,0 +1,149 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+#gameGrid {
+  background-color: #000;
+  height: 100vmin;
+  width: 100vmin;
+}
+
+#gameGrid {
+  display: grid;
+  grid-template: repeat(21, 1fr) / repeat(21, 1fr);
+  gap: .8vmin;
+}
+
+.snake {
+  background-color: #0f0;
+}
+
+.snake.head {
+  background-color: rgb(10, 139, 10);
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.snake.head.up {
+  transform: rotate(0);
+}
+
+.snake.head.down {
+  transform: rotate(180deg);
+}
+
+.snake.head.left {
+  transform: rotate(270deg);
+}
+
+.snake.head.right {
+  transform: rotate(90deg);
+}
+
+.snake.head > div {
+  background-color: #fff;
+  width: 90%;
+  height: 90%;
+  justify-self: center;
+  align-self: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snake.head > div > div {
+  background-color: #000;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.score {
+  position: absolute;
+  width: 100vmin;
+  color: #fff;
+}
+
+.food {
+  background-image: url(images/apple.svg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.death-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(179, 16, 16);
+  width: 100vmin;
+  height: 100vmin;
+  position: absolute;
+  animation: transition 2s linear;
+}
+
+@keyframes transition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.death-confirmation {
+  margin: 0;
+  font-size: 5rem;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+  user-select: none;
+}
+
+.death-score {
+  opacity: 1;
+  margin: 0;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+.death-options-container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.death-options-container:nth-child(1) {
+  margin: 100em;
+  background-color: #f00;
+}
+
+.death-option {
+  background-color: #fff;
+  padding: 1em 1.8em;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.death-option:hover {
+  text-decoration: underline;
+}
+
+.death-option:first-of-type {
+  margin-right: .5em;
+}
+
+.death-option:last-of-type {
+  margin-left: .5em;
+}
