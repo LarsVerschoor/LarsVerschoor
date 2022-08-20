@@ -1,10 +1,6 @@
 import {positions as foodPositions, remove as removeFood} from './food.js'
 
-export let bodyPositions = [
-  {x: 10, y: 10},
-  {x: 10, y: 11},
-  {x: 10, y: 12}
-]
+export let bodyPositions = []
 
 let snakeDirection = 'up'
 let lastSnakeDirection
