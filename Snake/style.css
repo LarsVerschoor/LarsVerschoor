@@ -7,7 +7,8 @@ body {
   background-color: #fff;
   margin: 0;
   display: flex;
-  height: 100vh;
+  height: 102vh;
+  transform: translateY(-1vh);
   overflow: hidden;
   justify-content: center;
   align-items: center;
