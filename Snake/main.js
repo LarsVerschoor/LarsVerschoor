@@ -2,6 +2,11 @@ import {create as createSnake, update as updateSnake, render as renderSnake, che
 import {create as createFood, update as updateFood, render as renderFood, reset as resetFood} from './food.js'
 import {update as renderScore, renderDeath, reset as resetHUD} from './HUD.js'
 
+document.addEventListener('swiped', (e) => {
+  console.log(e)
+  alert('swipe')
+})
+
 let mainLoop
 
 export function main() {
