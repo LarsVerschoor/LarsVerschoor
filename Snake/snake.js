@@ -209,3 +209,5 @@ function handleTouchMove(evt) {
     xDown = null;
     yDown = null;                                             
 };
+
+window.onscroll = function () { window.scrollTo(0, 0); };
