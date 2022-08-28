@@ -1,3 +1,8 @@
+html,
+body {
+    overscroll-behavior-y: contain;
+}
+
 body {
   background-color: #fff;
   margin: 0;
