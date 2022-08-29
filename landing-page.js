@@ -14,6 +14,8 @@ const projects = [
 for (let i = 0; i < projects.length; i++) {
   const anchorElement = document.createElement('a')
   anchorElement.innerText = projects[i].name
-  anchorElement.href = projects[i].url
+  anchorElement.addEventListener('click', () => {
+    window.open(projects[i].url)
+  })
   document.body.appendChild(anchorElement)
 }
