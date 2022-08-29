@@ -174,7 +174,8 @@ function displaySettingsScreen() {
       } else if (setting.type = 'checkbox') {
         if (inputElement.checked) setting.value = true
         else setting.value = false
-        
+      } else if (setting.type === 'color'){
+        setting.value = `#${inputElement.value}`
       } else {
         setting.value = inputElement.value
       }
