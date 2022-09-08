@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(12, 12, 12);
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  display: block;
+}
+
+.project-button {
+  padding: .8em 1.6em;
+  margin: .4em 0 .4em .4em;
+  background-color: #fff;
+  border: none;
+  border-radius: .3em;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.project-button:hover {
+  text-decoration: underline;
+  background-color: rgb(215, 215, 215);
+}
