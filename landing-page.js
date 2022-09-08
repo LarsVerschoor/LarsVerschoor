@@ -12,7 +12,7 @@ const projects = [
 
 
 for (let i = 0; i < projects.length; i++) {
-  const anchorElement = document.createElement('a')
+  const anchorElement = document.createElement('button')
   anchorElement.innerText = projects[i].name
   anchorElement.addEventListener('click', () => {
     window.open(projects[i].url)
