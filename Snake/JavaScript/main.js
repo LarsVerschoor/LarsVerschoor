@@ -3,6 +3,8 @@ import {updateFood, renderFood, initFood, removeFood} from './food.js'
 import {displayHomeScreen, settings} from './homeScreen.js'
 import {updateStatistics} from './statistics.js'
 
+window.alert("I am currently designing snake v3. \n url of design: https://www.figma.com/proto/8p3brM3XVNQ6OEje79hmyL/Untitled?node-id=1%3A2&scaling=contain&page-id=0%3A1")
+
 let mainLoop = undefined
 let millisecondsBetweenSnakeMove = 150
 
