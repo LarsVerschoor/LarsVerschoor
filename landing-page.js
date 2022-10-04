@@ -6,6 +6,10 @@ const projects = [
   {
     name: 'tic tac toe',
     url: 'https://larsverschoor.pages.dev/Tic%20Tac%20Toe/'
+  },
+  {
+    name: 'De Anaalgangers',
+    url: 'https://larsverschoor.pages.dev/De%20Anaalgangers/'
   }
 ]
 
