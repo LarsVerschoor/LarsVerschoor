@@ -13,8 +13,9 @@ async function getData() {
     }
     
   })
-
-  console.log(response.json())
+  
+  const data = await response.json()
+  console.log(data)
 }
 
 getData()
