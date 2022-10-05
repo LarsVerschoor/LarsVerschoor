@@ -6,7 +6,8 @@ async function getData() {
   const response = await fetch(endpoint, {
     headers: {
       'method': "GET",
-      'Authorization': token
+      'Authorization': token,
+      mode: 'no-cors'
     }
   })
 }
