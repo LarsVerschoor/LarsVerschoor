@@ -10,6 +10,10 @@ const projects = [
   {
     name: 'De Anaalgangers',
     url: 'https://larsverschoor.pages.dev/De%20Anaalgangers/'
+  },
+  {
+    name: 'Snake V3.0',
+    url: 'https://larsverschoor.pages.dev/SnakeV3.0'
   }
 ]
 
