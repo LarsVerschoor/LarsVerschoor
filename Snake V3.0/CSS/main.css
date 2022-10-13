@@ -243,6 +243,7 @@ h3 {
   background-color: var(--color-text);
   margin: 0;
   padding: 0;
+  min-height: 0;
   width: 100vmin;
   height: 100vmin;
   gap: .75vmin;
