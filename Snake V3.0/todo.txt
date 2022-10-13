@@ -1,0 +1,6 @@
+1. Food decay time
+2. Multiplayer Snake versie (object oriented programming & in nieuwe window)
+3. Custom Snake Versie (object oriented & in nieuwe window)
+4. Settings
+5. Credits
+6. V2.2 updaten met V3.0 (Github)
