@@ -44,14 +44,19 @@ function updateLocalStorage(score) {
   switch(gameMode){
     case 'casual':
       highScores.casual = score
+      break
     case 'obstacles':
       highScores.obstacles = score
+      break
     case 'solidWalls':
       highScores.solidWalls = score
+      break
     case 'foodMadness':
       highScores.foodMadness = score
+      break
     case 'completeMadness':
       highScores.completeMadness = score
+      break
   }
   localStorage.setItem('highScores', JSON.stringify(highScores))
 }
