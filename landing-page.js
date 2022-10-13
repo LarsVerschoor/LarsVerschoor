@@ -1,6 +1,6 @@
 const projects = [
   {
-    name: 'snake',
+    name: 'snake V2.2',
     url: 'https://larsverschoor.pages.dev/Snake/'
   },
   {
