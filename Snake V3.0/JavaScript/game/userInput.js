@@ -5,10 +5,10 @@ export function init() {
 }
 
 window.addEventListener('keydown', (e) => {
-  if (e.key === 'w' || e.key === 'ArrowUp') inputDirection = 'up'
-  if (e.key === 'a' || e.key === 'ArrowLeft') inputDirection = 'left'
-  if (e.key === 's' || e.key === 'ArrowDown') inputDirection = 'down'
-  if (e.key === 'd' || e.key === 'ArrowRight') inputDirection = 'right'
+  if (e.key === 'w' || e.key === 'ArrowUp') requestedDirection = 'up'
+  if (e.key === 'a' || e.key === 'ArrowLeft') requestedDirection = 'left'
+  if (e.key === 's' || e.key === 'ArrowDown') requestedDirection = 'down'
+  if (e.key === 'd' || e.key === 'ArrowRight') requestedDirection = 'right'
 })
 
 let touchstartX
