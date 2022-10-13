@@ -10,6 +10,18 @@
   <title>Snake V3.0</title>
 </head>
 <body>
+  <script>
+    if (localStorage.getItem('highScores') === null) {
+    const highScoresArray = {
+      casual: 0,
+      obstacles: 0,
+      solidWalls: 0,
+      foodMadness: 0,
+      completeMadness: 0
+    }
+    localStorage.setItem('highScores', JSON.stringify(highScoresArray))
+  }
+  </script>
   <main>
     <h1>Snake</h1>
     <div class="main__options-container">
