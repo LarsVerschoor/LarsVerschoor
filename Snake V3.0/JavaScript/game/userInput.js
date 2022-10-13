@@ -24,10 +24,10 @@ document.addEventListener('touchend', e => {
 })
 
 function checkDirection(xEnd, yEnd) {
-  let up = touchstartX - xEnd
-  let right = touchstartY - yEnd
-  let left = -(touchstartY - yEnd)
-  let down = -(touchstartX - xEnd)
+  let right = touchstartX - xEnd
+  let up = touchstartY - yEnd
+  let down = -(touchstartY - yEnd)
+  let left = -(touchstartX - xEnd)
   if (up > right && up > left && up > down) requestedDirection = 'up'
   if (left > right && left > up && left > down) requestedDirection = 'left'
   if (down > up && down > right && down > left) requestedDirection = 'down'
