@@ -15,16 +15,16 @@ export function init() {
   ]
 
 
-  if (localStorage.getItem('highScores') === null) {
-    const highScoresArray = {
-      casual: 0,
-      obstacles: 0,
-      solidWalls: 0,
-      foodMadness: 0,
-      completeMadness: 0
-    }
-    localStorage.setItem('highScores', JSON.stringify(highScoresArray))
-  }
+//   if (localStorage.getItem('highScores') === null) {
+//     const highScoresArray = {
+//       casual: 0,
+//       obstacles: 0,
+//       solidWalls: 0,
+//       foodMadness: 0,
+//       completeMadness: 0
+//     }
+//     localStorage.setItem('highScores', JSON.stringify(highScoresArray))
+//   }
   
   snakeDirection = undefined
   inputDirection = undefined
