@@ -13,11 +13,6 @@ window.addEventListener('keydown', (e) => {
 
 let touchstartX
 let touchstartY
-    
-function checkDirection() {
-  if (touchendX < touchstartX) alert('swiped left!')
-  if (touchendX > touchstartX) alert('swiped right!')
-}
 
 document.addEventListener('touchstart', e => {
   touchstartX = e.changedTouches[0].screenX
