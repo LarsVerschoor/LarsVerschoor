@@ -20,7 +20,7 @@ for (let i = 0; i < projects.length; i++) {
   buttonElement.innerText = projects[i].name
   if (projects[i].url) {
     buttonElement.addEventListener('click', () => {
-      window.open (projects[i].url,"mywindow","status=1,toolbar=0");
+      window.open(projects[i].url)
     })
   }
   buttonElement.classList = 'project-button'
