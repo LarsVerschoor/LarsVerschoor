@@ -42,21 +42,25 @@ function init() {
 
 function updateLocalStorage(score) {
   const highScores = JSON.parse(localStorage.getItem('highScores'))
-  if (highScores.gameMode > score) return
   switch(gameMode){
     case 'casual':
+      if (highScores.casual >= score) return
       highScores.casual = score
       break
     case 'obstacles':
+      if (highScores.obstacles >= score) return
       highScores.obstacles = score
       break
     case 'solidWalls':
+      if (highScores.solidWalls >= score) return
       highScores.solidWalls = score
       break
     case 'foodMadness':
+      if (highScores.foodMadness >= score) return
       highScores.foodMadness = score
       break
     case 'completeMadness':
+      if (highScores.completeMadness >= score) return
       highScores.completeMadness = score
       break
   }
