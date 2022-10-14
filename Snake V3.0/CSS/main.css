@@ -21,8 +21,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 110vh;
-  overflow: hidden;
 }
 
 h1, h2, h3, p {
