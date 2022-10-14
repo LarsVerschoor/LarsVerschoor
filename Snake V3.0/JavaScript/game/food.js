@@ -10,7 +10,7 @@ export function init() {
 function createNewFoodElement() {
   let x = Math.floor(Math.random() * 21) + 1
   let y = Math.floor(Math.random() * 21) + 1
-  if (isOnSnake(x, y) || isOnObstacle(x, y)) {
+  if (isOnSnake(x, y) || isOnObstacle(x, y) || isOnFood(x, y)) {
     return createNewFoodElement()
   }
   return {x, y}
