@@ -15,13 +15,6 @@ export function init() {
   ]
   
   snakeDirection = undefined
-
-  // window.addEventListener('keydown', (e) => {
-  //   if (e.key === 'w' || e.key === 'ArrowUp') inputDirection = 'up'
-  //   if (e.key === 'a' || e.key === 'ArrowLeft') inputDirection = 'left'
-  //   if (e.key === 's' || e.key === 'ArrowDown') inputDirection = 'down'
-  //   if (e.key === 'd' || e.key === 'ArrowRight') inputDirection = 'right'
-  // })
 }
 
 
