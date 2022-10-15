@@ -7,7 +7,6 @@ let snakeDirection = undefined
 
 export function init() {
   snakeDeath = false
-
   snakePositions = [
     {x: 11, y: 11},
     {x: 11, y: 12},
@@ -17,10 +16,7 @@ export function init() {
   snakeDirection = undefined
 }
 
-
-
 export function updateSnake() {
-
   if (inputDirection !== undefined) {
     if (inputDirection === 'up' && snakeDirection !== 'down') snakeDirection = 'up'
     if (inputDirection === 'left' && snakeDirection !== 'right') snakeDirection = 'left'
