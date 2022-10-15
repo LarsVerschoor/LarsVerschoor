@@ -54,9 +54,9 @@ export function updateSnake() {
   if (isOnObstacle(snakePositions[0].x, snakePositions[0].y)) snakeDeath = true
 
   if (gameMode !== 'solidWalls') {
-    if (snakePositions[0].x >= 21) snakePositions[0].x -= 21
+    if (snakePositions[0].x > 21) snakePositions[0].x -= 21
     if (snakePositions[0].x < 1) snakePositions[0].x += 21
-    if (snakePositions[0].y >= 21) snakePositions[0].y -= 21
+    if (snakePositions[0].y > 21) snakePositions[0].y -= 21
     if (snakePositions[0].y < 1) snakePositions[0].y += 21
   } else {
     if (snakePositions[0].x > 21 || snakePositions[0].x <= 0 || snakePositions[0].y > 21 || snakePositions[0].y <= 0) {
