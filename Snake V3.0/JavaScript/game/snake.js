@@ -47,10 +47,6 @@ export function updateSnake() {
       snakePositions[0].x += 1
   }
 
-  for (let i = 1; i < snakePositions.length; i++) {
-    if (snakePositions[0].x === snakePositions[i].x && snakePositions[0].y === snakePositions[i].y) snakeDeath = true
-  }
-
   if (isOnObstacle(snakePositions[0].x, snakePositions[0].y)) snakeDeath = true
 
   if (gameMode !== 'solidWalls') {
@@ -62,6 +58,10 @@ export function updateSnake() {
     if (snakePositions[0].x > 21 || snakePositions[0].x <= 0 || snakePositions[0].y > 21 || snakePositions[0].y <= 0) {
       snakeDeath = true
     }
+  }
+  
+  for (let i = 1; i < snakePositions.length; i++) {
+    if (snakePositions[0].x === snakePositions[i].x && snakePositions[0].y === snakePositions[i].y) snakeDeath = true
   }
 }
 
