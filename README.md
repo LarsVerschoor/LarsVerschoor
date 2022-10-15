@@ -8,6 +8,7 @@ Upcoming snake updates:
   - Current score visible in-game
   - Gamemode with food decay time
   - Gamemode with lives
+  - Faster snake gamemode
   - Improve food and obstacle spawn algorithm
   - Credits section
   - Settings section
