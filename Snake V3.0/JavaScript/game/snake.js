@@ -7,7 +7,7 @@ let snakeDirection = undefined
 
 window.alert('test')
 window.addEventListener('keydown', (e) => {
-  window.alert(`key: ${e.key}`)
+  window.alert(`key: ${e.key} code: ${e.keycode}`)
 })
 
 export function init() {
