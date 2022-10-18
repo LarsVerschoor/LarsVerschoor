@@ -5,11 +5,6 @@ export let snakeDeath = false
 export let snakePositions = undefined
 let snakeDirection = undefined
 
-window.alert('test')
-window.addEventListener('keydown', (e) => {
-  window.alert(`key: ${e.key} code: ${e.code}`)
-})
-
 export function init() {
   snakeDeath = false
   snakePositions = [
