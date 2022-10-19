@@ -61,6 +61,10 @@ export function updateSnake() {
   for (let i = 1; i < snakePositions.length; i++) {
     if (snakePositions[0].x === snakePositions[i].x && snakePositions[0].y === snakePositions[i].y) snakeDeath = true
   }
+  if (isOnObstacle(snakePositions[0].x, snakePositions[0].y)) {
+    snakeDeath = true
+    return
+  } 
 }
 
 export function renderSnake() {
