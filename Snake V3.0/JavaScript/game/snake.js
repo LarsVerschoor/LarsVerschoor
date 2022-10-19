@@ -17,6 +17,7 @@ export function init() {
 }
 
 export function updateSnake() {
+  if (isOnObstacle(snakePositions[0].x, snakePositions[0].y)) snakeDeath = true
   if (inputDirection !== undefined) {
     if (inputDirection === 'up' && snakeDirection !== 'down') snakeDirection = 'up'
     if (inputDirection === 'left' && snakeDirection !== 'right') snakeDirection = 'left'
