@@ -8,8 +8,8 @@ const projects = [
     url: 'https://larsverschoor.pages.dev/Tic%20Tac%20Toe/'
   },
   {
-    name: 'Snake V3.0',
-    url: 'https://larsverschoor.pages.dev/Snake%20V3.0/'
+    name: 'Snake V3.1',
+    url: 'https://larsverschoor.pages.dev/Snake%20V3.1/'
   }
 ]
 
