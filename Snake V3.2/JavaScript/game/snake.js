@@ -126,6 +126,10 @@ export function renderSnake() {
   rightPupil.classList = 'pupil'
   leftEye.appendChild(leftPupil)
   rightEye.appendChild(rightPupil)
+  if (snakeCollapsing === true) {
+    leftPupil.classList.add('dead')
+    rightPupil.classList.add('dead')
+  }
   newElement.appendChild(leftEye)
   newElement.appendChild(rightEye)
   newElement.classList.add(snakeDirection)
