@@ -11,7 +11,7 @@ function createNewFoodElement() {
   let x = Math.floor(Math.random() * 21) + 1
   let y = Math.floor(Math.random() * 21) + 1
   let goldenApple = false
-  let goldenAppleChanceIndex = .05
+  let goldenAppleChanceIndex = .05 // 4%
   if (gameMode === 'goldRush') goldenAppleChanceIndex = 1
   if (Math.random() < goldenAppleChanceIndex) goldenApple = true
   if (isOnSnake(x, y) || isOnObstacle(x, y) || isOnFood(x, y)) {
