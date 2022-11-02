@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  grid-template-rows: 1fr;
+  height: 100vh;
+  margin: 0;
+  gap: 2em;
+}
+
+p {
+  margin: 0;
+}
+
+main {
+  height: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+nav > p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(84, 148, 0);
+  overflow-y: auto;
+  padding: 1em 1.5em;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  margin: .2em;
+  color: #fff;
+  font-size: 1.05rem
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 550px;
+  max-width: 95vw;
+}
+
+td,
+th {
+  outline: 1px solid #000;
+  padding: .6em 2em .6em 2em;
+}
+
+.check {
+  display: inline;
+  margin: 0;
+}
+
+td {
+  padding-left: .6em;
+  min-width: 60px;
+}
+
+.nederlands {
+  background-color: #000;
+  transition: background-color 150ms ease-in-out;
+}
+
+.nederlands:hover {
+  background-color: #fff;
+}
+
+.nederlands.finished {
+  background-color: #fff;
+}
+
+h2 {
+  margin-top: 3rem;
+}
