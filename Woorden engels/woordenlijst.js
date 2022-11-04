@@ -825,53 +825,7 @@ if (localStorage.getItem('wordlist') !== null) {
           finished: false,
           english: 'to long',
           dutch: 'sterk verlangen'
-        },
-        {
-          finished: false,
-          english: '',
-          dutch: ''
-        },
-        {
-          finished: false,
-          english: '',
-          dutch: ''
-        },
-        {
-          finished: false,
-          english: '',
-          dutch: ''
-        },
-        {
-          finished: false,
-          english: '',
-          dutch: ''
-        },
-        {
-          finished: false,
-          english: '',
-          dutch: ''
-        },
-        {
-          finished: false,
-          english: '',
-          dutch: ''
-        },
-        {
-          finished: false,
-          english: '',
-          dutch: ''
-        },
-        {
-          finished: false,
-          english: '',
-          dutch: ''
-        },
-        {
-          finished: false,
-          english: '',
-          dutch: ''
-        },
-        
+        }
       ]
     },
     {
