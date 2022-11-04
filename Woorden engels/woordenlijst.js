@@ -419,12 +419,460 @@ if (localStorage.getItem('wordlist') !== null) {
     {
       name: '3. Health and care',
       finished: false,
-      words: []
+      words: [
+        {
+          finished: false,
+          english: 'side-effects',
+          dutch: 'bijwerkingen'
+        },
+        {
+          finished: false,
+          english: 'stroke',
+          dutch: 'beroerte'
+        },
+        {
+          finished: false,
+          english: 'joint',
+          dutch: 'gewricht'
+        },
+        {
+          finished: false,
+          english: 'sustainability',
+          dutch: 'houdbaarheid'
+        },
+        {
+          finished: false,
+          english: 'to recuperate',
+          dutch: 'herstellen'
+        },
+        {
+          finished: false,
+          english: 'to inoculate',
+          dutch: 'inenten'
+        },
+        {
+          finished: false,
+          english: 'to benefit',
+          dutch: 'goed doen'
+        },
+        {
+          finished: false,
+          english: 'strain',
+          dutch: 'druk, belasting'
+        },
+        {
+          finished: false,
+          english: 'agony',
+          dutch: 'ondraaglijke pijn'
+        },
+        {
+          finished: false,
+          english: 'cardiac arrest',
+          dutch: 'hartstilstand'
+        },
+        {
+          finished: false,
+          english: 'obesity',
+          dutch: 'zwaarlijvigheid'
+        },
+        {
+          finished: false,
+          english: 'paralysis',
+          dutch: 'verlamming'
+        },
+        {
+          finished: false,
+          english: 'contagious',
+          dutch: 'besmettelijk'
+        },
+        {
+          finished: false,
+          english: 'to neglect',
+          dutch: 'verwaarlozen'
+        },
+        {
+          finished: false,
+          english: 'nutritious',
+          dutch: 'voedzaam'
+        },
+        {
+          finished: false,
+          english: 'disabled',
+          dutch: 'invalide'
+        },
+        {
+          finished: false,
+          english: 'malignant',
+          dutch: 'kwaadaardig'
+        },
+        {
+          finished: false,
+          english: 'to shiver',
+          dutch: 'rillen'
+        },
+        {
+          finished: false,
+          english: 'to cough',
+          dutch: 'hoesten'
+        },
+        {
+          finished: false,
+          english: 'to vomit',
+          dutch: 'braken, overgeven'
+        },
+        {
+          finished: false,
+          english: 'to pant',
+          dutch: 'hijgen'
+        },
+        {
+          finished: false,
+          english: 'to digest',
+          dutch: 'verteren'
+        },
+        {
+          finished: false,
+          english: 'to callapse',
+          dutch: 'in elkaar zakken'
+        },
+        {
+          finished: false,
+          english: 'to moan',
+          dutch: 'kreunen'
+        },
+        {
+          finished: false,
+          english: 'to suffocate',
+          dutch: 'stikken'
+        },
+        {
+          finished: false,
+          english: 'to go into rehab',
+          dutch: 'afkicken'
+        },
+        {
+          finished: false,
+          english: 'kidney',
+          dutch: 'nier'
+        },
+        {
+          finished: false,
+          english: 'germ',
+          dutch: 'bacterie'
+        },
+        {
+          finished: false,
+          english: 'sedative',
+          dutch: 'kalmeringsmiddel'
+        },
+        {
+          finished: false,
+          english: 'to soothe',
+          dutch: 'verzachten'
+        },
+        {
+          finished: false,
+          english: 'prescription',
+          dutch: 'recept'
+        },
+        {
+          finished: false,
+          english: 'adverse',
+          dutch: 'negatief'
+        },
+        {
+          finished: false,
+          english: 'to administer',
+          dutch: 'toedienen'
+        },
+        {
+          finished: false,
+          english: 'to consult',
+          dutch: 'raadplegen'
+        },
+        {
+          finished: false,
+          english: 'lethal',
+          dutch: 'dodelijk, zeer gevaarlijk'
+        },
+        {
+          finished: false,
+          english: 'contaminated',
+          dutch: 'besmet'
+        },
+        {
+          finished: false,
+          english: 'incurable',
+          dutch: 'ongeneeslijk'
+        },
+        {
+          finished: false,
+          english: 'to subject to',
+          dutch: 'onderwerpen aan'
+        },
+        {
+          finished: false,
+          english: 'guinea pig',
+          dutch: 'proefkonijn'
+        },
+        {
+          finished: false,
+          english: 'to regain',
+          dutch: 'terugkrijgen'
+        }
+      ]
     },
     {
       name: '4. Feelings and attitudes',
       finished: false,
-      words: []
+      words: [
+        {
+          finished: false,
+          english: 'avid',
+          dutch: 'enthousiast'
+        },
+        {
+          finished: false,
+          english: 'biased',
+          dutch: 'bevooroordeeld'
+        },
+        {
+          finished: false,
+          english: 'commitment',
+          dutch: 'grote inzet'
+        },
+        {
+          finished: false,
+          english: 'overwhelmed',
+          dutch: 'overweldigd'
+        },
+        {
+          finished: false,
+          english: 'awe',
+          dutch: 'ontzag, enorm respect'
+        },
+        {
+          finished: false,
+          english: 'to reconcile',
+          dutch: 'verzoenen'
+        },
+        {
+          finished: false,
+          english: 'to adore',
+          dutch: 'aanbidden'
+        },
+        {
+          finished: false,
+          english: 'to mock',
+          dutch: 'bespotten, belachelijk maken'
+        },
+        {
+          finished: false,
+          english: 'hostile',
+          dutch: 'vijandig'
+        },
+        {
+          finished: false,
+          english: 'appaling',
+          dutch: 'vreselijk'
+        },
+        {
+          finished: false,
+          english: 'desperate',
+          dutch: 'wanhopig'
+        },
+        {
+          finished: false,
+          english: 'to appal',
+          dutch: 'verbijsteren'
+        },
+        {
+          finished: false,
+          english: 'indignant',
+          dutch: 'verontwaardigd'
+        },
+        {
+          finished: false,
+          english: 'disdain',
+          dutch: 'minachting'
+        },
+        {
+          finished: false,
+          english: 'outrage',
+          dutch: 'verontwaardiging'
+        },
+        {
+          finished: false,
+          english: 'rage',
+          dutch: 'woede'
+        },
+        {
+          finished: false,
+          english: 'resentment',
+          dutch: 'haat, wrok'
+        },
+        {
+          finished: false,
+          english: 'furious',
+          dutch: 'woedend'
+        },
+        {
+          finished: false,
+          english: 'anxious',
+          dutch: 'ongerust'
+        },
+        {
+          finished: false,
+          english: 'concerned',
+          dutch: 'bezorgd'
+        },
+        {
+          finished: false,
+          english: 'anguish',
+          dutch: 'enorme bezorgdheid en angst'
+        },
+        {
+          finished: false,
+          english: 'agonizing',
+          dutch: 'zeer pijnlijk'
+        },
+        {
+          finished: false,
+          english: 'to sense',
+          dutch: 'voelen'
+        },
+        {
+          finished: false,
+          english: 'tendency',
+          dutch: 'neiging'
+        },
+        {
+          finished: false,
+          english: 'blunt',
+          dutch: 'bot'
+        },
+        {
+          finished: false,
+          english: 'patronising',
+          dutch: 'neerbuigend'
+        },
+        {
+          finished: false,
+          english: 'condescending',
+          dutch: 'neerbuigend'
+        },
+        {
+          finished: false,
+          english: 'to reject',
+          dutch: 'afwijzen'
+        },
+        {
+          finished: false,
+          english: 'prejudice',
+          dutch: 'vooroordeel'
+        },
+        {
+          finished: false,
+          english: 'suspicous',
+          dutch: 'verdacht'
+        },
+        {
+          finished: false,
+          english: 'to envy',
+          dutch: 'benijden om, benijden'
+        },
+        {
+          finished: false,
+          english: 'to bear',
+          dutch: 'verdragen'
+        },
+        {
+          finished: false,
+          english: 'grief',
+          dutch: 'verdriet'
+        },
+        {
+          finished: false,
+          english: 'to mourn',
+          dutch: 'rouwen over, treuren over'
+        },
+        {
+          finished: false,
+          english: 'pledge',
+          dutch: 'plechtige belofte'
+        },
+        {
+          finished: false,
+          english: 'to humiliate',
+          dutch: 'vernederen'
+        },
+        {
+          finished: false,
+          english: 'daunting',
+          dutch: 'ontmoedigend'
+        },
+        {
+          finished: false,
+          english: 'to be eager',
+          dutch: 'heel graag willen'
+        },
+        {
+          finished: false,
+          english: 'keen',
+          dutch: 'enthousiast'
+        },
+        {
+          finished: false,
+          english: 'to long',
+          dutch: 'sterk verlangen'
+        },
+        {
+          finished: false,
+          english: '',
+          dutch: ''
+        },
+        {
+          finished: false,
+          english: '',
+          dutch: ''
+        },
+        {
+          finished: false,
+          english: '',
+          dutch: ''
+        },
+        {
+          finished: false,
+          english: '',
+          dutch: ''
+        },
+        {
+          finished: false,
+          english: '',
+          dutch: ''
+        },
+        {
+          finished: false,
+          english: '',
+          dutch: ''
+        },
+        {
+          finished: false,
+          english: '',
+          dutch: ''
+        },
+        {
+          finished: false,
+          english: '',
+          dutch: ''
+        },
+        {
+          finished: false,
+          english: '',
+          dutch: ''
+        },
+        
+      ]
     },
     {
       name: '8. Sports and leisure',
