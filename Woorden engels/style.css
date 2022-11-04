@@ -66,6 +66,7 @@ td {
 }
 
 .nederlands {
+  user-select: 'none';
   background-color: #000;
   transition: background-color 150ms ease-in-out;
 }
