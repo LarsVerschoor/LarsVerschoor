@@ -1,0 +1,389 @@
+/* GENERAL start */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Silkscreen&display=swap');
+
+:root {
+  --color-text: rgb(15, 15, 15);
+  --color-background: rgb(245, 245, 245);
+}
+
+button:focus {
+  outline: 5px solid var(--color-text);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  font-family: silkscreen, cursive;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1, h2, h3, p {
+  color: var(--color-text);
+}
+
+/* GENERAL end */
+
+/* MAIN start */
+
+main {
+  width: 100vmin;
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  justify-self: center;
+  align-self: center;
+}
+
+main > img {
+  height: 13em;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 800px) {
+  main > img {
+    height: 11em;
+  }
+}
+@media (max-width: 675px) {
+  main > img {
+    height: 9em;
+  }
+}
+@media (max-width: 550px) {
+  main > img {
+    height: 8em;
+  }
+}
+@media (max-width: 475px) {
+  main > img {
+    height: 7em;
+  }
+}
+@media (max-width: 400px) {
+  main > img {
+    height: 6em;
+  }
+}
+@media (max-width: 350px) {
+  main > img {
+    height: 5em;
+  }
+}
+@media (max-width: 270px) {
+  main > img {
+    height: 4.5em;
+  }
+}
+
+
+.main__options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__option {
+  padding: .25em .6em;
+  width: 100%;
+  text-align: center;
+  font-size: 1.45rem;
+  cursor: pointer;
+  transition: text-decoration 500ms linear;
+}
+
+.main__option:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+  .main__option {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .main__option {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-height: 450px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-height: 375px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .main__option {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-height: 300px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .main__option {
+    font-size: 1.2rem;
+  }
+}
+
+/* MAIN end */
+
+/* SECTIONS start */
+
+section {
+  margin-top: 10vh;
+  padding: 2.5em;
+  padding-bottom: 0;
+  height: fit-content;
+  min-height: 90vh;
+  width: 70vw;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+  justify-self: center;
+  align-self: center;
+}
+
+@media (max-width: 500px) {
+  section {
+    width: 100vw;
+  }
+}
+
+@media (max-height: 600px) {
+  section {
+    /* height: 75vh; */
+    margin-top: 25vh;
+  }
+}
+
+@media (max-height: 400px) {
+  section {
+    /* height: calc(100vh - 3em); */
+    margin-top: 3em;
+  }
+}
+
+.home-button {
+  position: absolute;
+  transform: translate( -2.5em, -5.5em );
+  width: 8em;
+  height: 3em;
+  border: none;
+  background-color: var(--color-text);
+  color: var(--color-background);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+/* PLAY SECTION start */
+
+:root {
+  --gamemode-height: 16em;
+  --gamemode-width: 14em;
+}
+
+.gamemode-container {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, var(--gamemode-width));
+  grid-template-rows: repeat(auto-fill, var(--gamemode-height));
+}
+
+.gamemode {
+  height: var(--gamemode-height);
+  width: 100%;
+  box-shadow: .1em .1em .3em .1em rgba(0, 0, 0, .2);
+  border-radius: .5em;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gamemode__img {
+  width: 100%;
+  margin-bottom: 2.5%;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: .2em;
+  margin-left: 7.5%;
+  font-family: sans-serif;
+}
+
+.gamemode__high-score,
+.gamemode__play {
+  margin-left: 7.5%;
+  font-size: 1rem;
+  margin-top: .2em;
+  font-family: sans-serif;
+}
+
+.gamemode__play {
+  width: 6em;
+  justify-self: center;
+  height: 2.5em;
+  margin: 4% 0 7.5% 7.5%;
+  border: none;
+  background-color: var(--color-text);
+  color: var(--color-background);
+  cursor: pointer;
+}
+
+.gamemode__play:hover {
+  text-decoration: underline;
+}
+
+/* PLAY SECTION end */
+
+/* GAME SECTION start */
+.background {
+  grid-row: 1;
+  grid-column: 1;
+  display: grid;
+  grid-template: repeat(21, 1fr) / repeat(21, 1fr);
+    width: 100vmin;
+  height: 100vmin;
+  justify-self: center;
+  align-self: center;
+}
+.background > div {
+  width: 100%;
+  height: 100%;
+  color: rgb(5, 5, 5);
+}
+
+
+/* .background:nth-child(4) {
+  background-color: #00B507;
+}
+.background:nth-child(odd) {
+  background-color: #ffffff;
+} */
+
+.game {
+  /* display: grid; */
+  grid-template: repeat(21, 1fr) / repeat(21, 1fr);
+  margin: 0;
+  padding: 0;
+  min-height: 0;
+  width: 100vmin;
+  height: 100vmin;
+  gap: .75vmin;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.snake {
+  background-color: #00B507;
+}
+
+.head {
+  background-color: #005504;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.head.up {transform: rotate(0)}
+.head.left {transform: rotate(270deg)}
+.head.right {transform: rotate(90deg)}
+.head.down {transform: rotate(180deg)}
+
+.food {
+  background-color: #C10000;
+}
+
+.food.golden {
+  background-color: rgb(255, 191, 0);
+}
+
+.obstacle {
+  background-color: #8700B7;
+}
+
+.score {
+  position: absolute;
+  font-size: 1.5rem;
+  transform: translate(1rem, .8rem);
+  color: #fff;
+  z-index: 1;
+}
+
+.eye {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+
+
+.pupil {
+  width: 50%;
+  height: 50%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.pupil.dead {
+  background-color: #fff;
+  background-image: url('../Images/dead\ eyes.svg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  /* .75vmin */
+}
+
+/* GAME SECTION end */
+
+/* SECTIONS end */
+
