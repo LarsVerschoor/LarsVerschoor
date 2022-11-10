@@ -15,6 +15,10 @@ const projects = [
     name: 'Woorden Engels',
     url: 'https://larsverschoor.pages.dev/Woorden%20engels/'
   }
+  {
+    name: 'Telefoon Menu',
+    url: 'https://larsverschoor.pages.dev/mobile%20nav/'
+  }
 ]
 
 
