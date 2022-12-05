@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SNAKE V4</title>
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="CSS/startScreen.css">
+  <link rel="stylesheet" href="CSS/playScreen.css">
+  <link rel="stylesheet" href="CSS/settingsScreen.css">
+  <script src="JavaScript/gameModes.js" defer type="module"></script>
+  <script src="JavaScript/switchScreens.js" defer type="module"></script>
+  <script src="JavaScript/main.js" defer type="module"></script>
+  
+</head>
+<body>
+
+  <!-- startScreen START -->
+  <section id="startScreen" class="start-screen">
+    <h1>SNAKE</h1>
+    <div class="start-screen__options-container">
+      <div id="startScreenOption" class="start-screen__option play">Play</div>
+      <div id="startScreenOption" class="start-screen__option settings">Settings</div>
+      <div id="startScreenOption" class="start-screen__option view-code">View code</div>
+      <div id="startScreenOption" class="start-screen__option" onclick="window.close()">Quit</div>
+    </div>
+  </section>
+  <!-- startScreen END -->
+
+  <!-- playScreen START -->
+  <section id="playScreen" class="play-screen">
+    <button id="backButton" class="back-button">🡰</button>
+    <h2>Gamemodes</h2>
+    <div class="gamemodes-container">
+    </div>
+  </section>
+  <!-- playScreen END -->
+
+  <!-- gameScreen START -->
+  <section id="gameScreen" class="game-screen"></section>
+  <!-- gameScreen END -->
+
+  <!-- settingsScreen START -->
+  <section id="settingsScreen" class="settings-screen">
+    <button id="backButton" class="back-button">🡰</button>
+    <h2>Settings</h2>
+  </section>
+  <!-- settingsScreen END -->
+</body>
+</html>
