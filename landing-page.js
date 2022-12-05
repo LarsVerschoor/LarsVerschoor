@@ -12,6 +12,10 @@ const projects = [
     url: 'https://larsverschoor.pages.dev/Snake%20V3.4/'
   },
   {
+    name: 'Snake V4.0',
+    url: 'https://larsverschoor.pages.dev/Snake%20V4.0/'
+  },
+  {
     name: 'Woorden Engels',
     url: 'https://larsverschoor.pages.dev/Woorden%20engels/'
   },
