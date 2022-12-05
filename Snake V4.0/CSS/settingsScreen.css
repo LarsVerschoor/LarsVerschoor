@@ -1,0 +1,6 @@
+.settings-screen {
+  width: 80vw;
+  padding-top: 8em;
+  display: flex;
+  flex-direction: column;
+}
