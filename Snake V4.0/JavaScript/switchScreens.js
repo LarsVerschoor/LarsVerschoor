@@ -1,6 +1,6 @@
 const viewCode = document.querySelector('.view-code')
 viewCode.addEventListener('click', () => {
-  window.open(new URL('https://github.com/LarsVerschoor/LarsVerschoor'))
+  window.open(new URL('https://github.com/LarsVerschoor/LarsVerschoor/tree/main/Snake%20V4.0'))
 })
 
 const allScreens = [
