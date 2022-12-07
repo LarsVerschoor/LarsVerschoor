@@ -15,14 +15,14 @@ const projects = [
     name: 'Snake V4.0',
     url: 'https://larsverschoor.pages.dev/Snake%20V4.0/'
   },
-  {
-    name: 'Woorden Engels',
-    url: 'https://larsverschoor.pages.dev/Woorden%20engels/'
-  },
-  {
-    name: 'Telefoon Menu',
-    url: 'https://larsverschoor.pages.dev/mobile%20nav/'
-  }
+//   {
+//     name: 'Woorden Engels',
+//     url: 'https://larsverschoor.pages.dev/Woorden%20engels/'
+//   },
+//   {
+//     name: 'Telefoon Menu',
+//     url: 'https://larsverschoor.pages.dev/mobile%20nav/'
+//   }
 ]
 
 
